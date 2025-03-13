@@ -1,0 +1,5 @@
+{
+	"userEmail": "{{tbEmail.text}}",
+	"userPassword": "{{tbPass.text}}",
+	"userSource": "Customer"
+}
