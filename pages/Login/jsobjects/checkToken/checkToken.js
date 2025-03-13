@@ -3,7 +3,12 @@ export default {
 		return verify_token.run()
 			.then(data => {
 			if (data.value)
-				navigateTo('Entries');
+				navigateTo('Entries')
+		})
+			.catch(() => {
+			storeValue("token", '');
+			storeValue("userId", '');
+			storeValue("userName", '');
 		})
 	}
 }

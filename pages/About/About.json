@@ -1,7 +1,7 @@
 {
   "gitSyncId": "67d2e714ec16006858a14115_fe7ad25e-1dfb-4379-8671-6209cc97faf3",
   "unpublishedPage": {
-    "isHidden": true,
+    "isHidden": false,
     "layouts": [
       {
         "dsl": {
@@ -26,7 +26,7 @@
         }
       }
     ],
-    "name": "Page3",
-    "slug": "page3"
+    "name": "About",
+    "slug": "about"
   }
 }
