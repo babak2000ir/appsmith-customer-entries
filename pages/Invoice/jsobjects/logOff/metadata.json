@@ -1,0 +1,11 @@
+{
+  "gitSyncId": "67d2e714ec16006858a14115_6bc2ace1-16e1-40ba-8a29-8207bba9a38d",
+  "id": "Invoice_logOff",
+  "unpublishedCollection": {
+    "name": "logOff",
+    "pageId": "Invoice",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "variables": []
+  }
+}
