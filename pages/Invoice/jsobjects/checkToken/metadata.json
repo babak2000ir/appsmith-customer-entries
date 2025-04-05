@@ -1,0 +1,11 @@
+{
+  "gitSyncId": "67d2e714ec16006858a14115_a0761173-cc79-4a99-b5fc-d383a426158e",
+  "id": "Invoice_checkToken",
+  "unpublishedCollection": {
+    "name": "checkToken",
+    "pageId": "Invoice",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "variables": []
+  }
+}

@@ -1,0 +1,4 @@
+{
+	"token": "{{appsmith.store.token}}",
+	"subject": "{{appsmith.store.userId}}"
+}
