@@ -1,0 +1,16 @@
+{
+  "gitSyncId": "67d2e714ec16006858a14115_0c857403-e325-4abd-857d-8010bbb75f31",
+  "id": "Invoice_helper",
+  "unpublishedCollection": {
+    "name": "helper",
+    "pageId": "Invoice",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "variables": [
+      {
+        "name": "currencySymbols",
+        "value": "{\n  USD: '$',\n  EUR: '€',\n  GBP: '£',\n  JPY: '¥',\n  INR: '₹',\n  AUD: 'A$',\n  CAD: 'C$',\n  CHF: 'CHF',\n  CNY: '¥',\n  SEK: 'kr',\n  NZD: 'NZ$'\n}"
+      }
+    ]
+  }
+}
