@@ -51,7 +51,7 @@
   "responsiveBehavior": "fill",
   "rightColumn": 26,
   "shouldTruncate": false,
-  "text": "{{currentItem.lineType}}{{currentItem.lineObjectNumber}}",
+  "text": "{{currentItem.lineType}} {{currentItem.lineObjectNumber}}",
   "textAlign": "LEFT",
   "textColor": "#93c5fd",
   "textStyle": "BODY",
