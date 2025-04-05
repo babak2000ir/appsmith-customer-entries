@@ -11,7 +11,11 @@
       "key": "borderRadius"
     }
   ],
-  "dynamicTriggerPathList": [],
+  "dynamicTriggerPathList": [
+    {
+      "key": "menuItems.menuItem2.onClick"
+    }
+  ],
   "iconAlign": "left",
   "iconName": "align-justify",
   "isCompact": false,
@@ -29,6 +33,7 @@
       "isDisabled": false,
       "isVisible": true,
       "label": "About",
+      "onClick": "{{navigateTo('About', {}, 'SAME_WINDOW');}}",
       "widgetId": ""
     }
   },
