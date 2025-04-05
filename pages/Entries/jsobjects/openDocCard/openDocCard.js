@@ -6,10 +6,14 @@ export default {
 				navigateTo('Invoice');
 				break;
 			case 'Credit Memo':
-				showAlert('Credit Memo');
+				storeValue('creditmemoNo', Table1.selectedRow.Document_No);
+				navigateTo('Creditmemo')
 				break;
 			case 'Payment':
 				showAlert('Payment');
+				break;
+			case 'Refund':
+				showAlert('Refund');
 				break;
 		}
 	}

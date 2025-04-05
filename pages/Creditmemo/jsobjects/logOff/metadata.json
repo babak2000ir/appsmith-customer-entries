@@ -1,0 +1,11 @@
+{
+  "gitSyncId": "67d2e714ec16006858a14115_e1a4c320-ef80-4238-bdf0-3ad90846e591",
+  "id": "Creditmemo_logOff",
+  "unpublishedCollection": {
+    "name": "logOff",
+    "pageId": "Creditmemo",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "variables": []
+  }
+}

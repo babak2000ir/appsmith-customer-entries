@@ -1,0 +1,16 @@
+{
+  "gitSyncId": "67d2e714ec16006858a14115_7d20e7da-ec67-438d-9d37-eb173ed68574",
+  "id": "Creditmemo_helper",
+  "unpublishedCollection": {
+    "name": "helper",
+    "pageId": "Creditmemo",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "variables": [
+      {
+        "name": "currencySymbols",
+        "value": "{\n  USD: '$',\n  EUR: '€',\n  GBP: '£',\n  JPY: '¥',\n  INR: '₹',\n  AUD: 'A$',\n  CAD: 'C$',\n  CHF: 'CHF',\n  CNY: '¥',\n  SEK: 'kr',\n  NZD: 'NZ$'\n}"
+      }
+    ]
+  }
+}

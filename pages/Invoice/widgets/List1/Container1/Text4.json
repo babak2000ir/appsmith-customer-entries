@@ -18,15 +18,23 @@
     },
     {
       "key": "text"
+    },
+    {
+      "key": "isVisible"
     }
   ],
   "dynamicHeight": "FIXED",
+  "dynamicPropertyPathList": [
+    {
+      "key": "isVisible"
+    }
+  ],
   "dynamicTriggerPathList": [],
   "fontFamily": "{{appsmith.theme.fontFamily.appFont}}",
   "fontSize": "0.875rem",
   "fontStyle": "",
   "isLoading": false,
-  "isVisible": true,
+  "isVisible": "{{currentItem.lineType !=='Comment'}}",
   "key": "hmd4xxjiq3",
   "leftColumn": 41,
   "maxDynamicHeight": 9000,

@@ -95,7 +95,7 @@
   "itemSpacing": 8,
   "key": "y0e3td86rl",
   "leftColumn": 0,
-  "listData": "{{cust_invoice.data.value[0].salesInvoiceLines}}",
+  "listData": "{{cust_crmemo.data.value[0].salesCreditMemoLines}}",
   "mainCanvasId": "47k5wvvaw3",
   "mainContainerId": "qpdayy7oy2",
   "minWidth": 450,

@@ -35,6 +35,10 @@
     {
       "id": "Invoice",
       "isDefault": false
+    },
+    {
+      "id": "Creditmemo",
+      "isDefault": false
     }
   ],
   "unpublishedAppLayout": {
