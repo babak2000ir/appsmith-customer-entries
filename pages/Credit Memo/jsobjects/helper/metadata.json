@@ -1,9 +1,9 @@
 {
   "gitSyncId": "67d2e714ec16006858a14115_7d20e7da-ec67-438d-9d37-eb173ed68574",
-  "id": "Creditmemo_helper",
+  "id": "Credit Memo_helper",
   "unpublishedCollection": {
     "name": "helper",
-    "pageId": "Creditmemo",
+    "pageId": "Credit Memo",
     "pluginId": "js-plugin",
     "pluginType": "JS",
     "variables": [

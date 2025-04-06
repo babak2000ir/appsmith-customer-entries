@@ -39,6 +39,10 @@
       "isDefault": false
     },
     {
+      "id": "Dashboard",
+      "isDefault": true
+    },
+    {
       "id": "Entries",
       "isDefault": false
     },
@@ -51,12 +55,8 @@
       "isDefault": false
     },
     {
-      "id": "Creditmemo",
+      "id": "Credit Memo",
       "isDefault": false
-    },
-    {
-      "id": "Dashboard",
-      "isDefault": true
     }
   ],
   "unpublishedAppLayout": {

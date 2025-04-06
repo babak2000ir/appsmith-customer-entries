@@ -7,7 +7,7 @@ export default {
 				break;
 			case 'Credit Memo':
 				storeValue('creditmemoNo', Table1.selectedRow.documentNo);
-				navigateTo('Creditmemo')
+				navigateTo('Credit Memo')
 				break;
 			case 'Payment':
 				showAlert('Payment');

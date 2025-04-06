@@ -1,6 +1,6 @@
 {
-  "gitSyncId": "67d2e714ec16006858a14115_5dc46d3e-38c7-43d1-b932-d9e3d83dacec",
-  "id": "Creditmemo_verify_token",
+  "gitSyncId": "67d2e714ec16006858a14115_47334d1e-2383-4a99-abd1-50db1c3e0656",
+  "id": "Credit Memo_cust_crmemo",
   "pluginId": "restapi-plugin",
   "pluginType": "API",
   "unpublishedAction": {
@@ -11,7 +11,7 @@
           "value": "application/json"
         }
       ],
-      "body": "{\n\t\"token\": \"{{appsmith.store.token}}\",\n\t\"subject\": \"{{appsmith.store.userId}}\"\n}",
+      "body": "{\n\t\"subject\": \"{{appsmith.store.userId}}\",\n\t\"token\":\"{{appsmith.store.token}}\",\n\t\"command\": \"GetSalesCreditMemo\",\n\t\"parameters\": \"{{JSON.stringify({documentNo: appsmith.store.creditmemoNo})}}\"\n}",
       "bodyFormData": [],
       "encodeParamsToggle": true,
       "formData": {
@@ -21,7 +21,7 @@
       "httpMethod": "POST",
       "httpVersion": "HTTP11",
       "paginationType": "NONE",
-      "path": "ODataV4/appsmithAPI_VerifyToken",
+      "path": "/ODataV4/appsmithAPI_InvokeInterface",
       "pluginSpecifiedTemplates": [
         {
           "value": true
@@ -47,9 +47,9 @@
         "key": "body"
       }
     ],
-    "executeOnLoad": false,
-    "name": "verify_token",
-    "pageId": "Creditmemo",
+    "executeOnLoad": true,
+    "name": "cust_crmemo",
+    "pageId": "Credit Memo",
     "userSetOnLoad": false
   }
 }
