@@ -20,5 +20,9 @@ export default {
 	},
 	getCrMemoLines() {
 		return JSON.parse(cust_crmemo.data.value).lines;
+	},
+	formatDate(xmlDate) {
+		var date = new Date(xmlDate);
+		return String(date.getMonth() + 1).padStart(2, '0') + '/' + String(date.getDay()).padStart(2, '0') + '/' + date.getFullYear();
 	}
 }
