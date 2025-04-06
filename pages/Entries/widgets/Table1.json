@@ -31,21 +31,21 @@
     }
   },
   "columnOrder": [
-    "systemId",
     "documentType",
-    "entryNo",
     "documentNo",
     "documentDate",
-    "amount"
+    "amount",
+    "systemId",
+    "entryNo"
   ],
-  "columnUpdatedAt": 1743899357423,
+  "columnUpdatedAt": 1743940373790,
   "columnWidthMap": {
     "Document_No": 71,
     "Document_Type": 112,
     "Posting_Date": 95,
     "documentDate": 95,
     "documentNo": 81,
-    "documentType": 124
+    "documentType": 108
   },
   "compactMode": "DEFAULT",
   "customIsLoading": false,
@@ -105,7 +105,7 @@
   "isVisibleDownload": false,
   "isVisibleFilters": false,
   "isVisiblePagination": true,
-  "isVisibleSearch": true,
+  "isVisibleSearch": false,
   "key": "wp0llbr6rw",
   "label": "Data",
   "leftColumn": 0,
