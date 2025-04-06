@@ -34,7 +34,7 @@
   "fontSize": "0.875rem",
   "fontStyle": "",
   "isLoading": false,
-  "isVisible": "{{currentItem.type !=='Comment'}}",
+  "isVisible": "{{currentItem.type !==' '}}",
   "key": "hmd4xxjiq3",
   "leftColumn": 41,
   "maxDynamicHeight": 9000,
