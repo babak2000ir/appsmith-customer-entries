@@ -43,9 +43,9 @@
     "Document_No": 71,
     "Document_Type": 112,
     "Posting_Date": 95,
-    "documentDate": 95,
-    "documentNo": 81,
-    "documentType": 108
+    "documentDate": 98,
+    "documentNo": 70,
+    "documentType": 107
   },
   "compactMode": "DEFAULT",
   "customIsLoading": false,
