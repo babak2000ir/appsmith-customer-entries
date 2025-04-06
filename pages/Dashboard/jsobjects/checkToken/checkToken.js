@@ -7,6 +7,7 @@ export default {
 			else {
 				Spinner.setVisibility(false);
 				DashboardWidget.setVisibility(true);
+
 			}
 		})
 			.catch(() => {
