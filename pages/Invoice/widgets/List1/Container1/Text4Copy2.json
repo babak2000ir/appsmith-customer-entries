@@ -51,7 +51,7 @@
   "responsiveBehavior": "fill",
   "rightColumn": 64,
   "shouldTruncate": false,
-  "text": "{{helper.getCurrencySymbol(cust_invoice.data.value[0].currencyCode)}} {{currentItem.amountIncludingTax}}",
+  "text": "{{helper.getInvoiceHeader().currencySymbol}} {{currentItem.amountIncludingVAT}}",
   "textAlign": "RIGHT",
   "textColor": "#231F20",
   "textStyle": "BODY",

@@ -1,12 +1,12 @@
 export default {
 	openDocumentCard () {
-		switch(Table1.selectedRow.Document_Type) {
+		switch(Table1.selectedRow.documentType) {
 			case 'Invoice':
-				storeValue('invoiceNo', Table1.selectedRow.Document_No);
+				storeValue('invoiceNo', Table1.selectedRow.documentNo);
 				navigateTo('Invoice');
 				break;
 			case 'Credit Memo':
-				storeValue('creditmemoNo', Table1.selectedRow.Document_No);
+				storeValue('creditmemoNo', Table1.selectedRow.documentNo);
 				navigateTo('Creditmemo')
 				break;
 			case 'Payment':

@@ -13,7 +13,12 @@ export default {
 		NZD: 'NZ$', // New Zealand Dollar
 	},
 	getCurrencySymbol (currencyCode) {
-
 		return this.currencySymbols[currencyCode] || currencyCode;
+	},
+	getCrMemoHeader() {
+		return JSON.parse(cust_crmemo.data.value);
+	},
+	getCrMemoLines() {
+		return JSON.parse(cust_crmemo.data.value).lines;
 	}
 }

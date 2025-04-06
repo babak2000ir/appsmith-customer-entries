@@ -43,7 +43,7 @@
   "responsiveBehavior": "fill",
   "rightColumn": 63,
   "shouldTruncate": false,
-  "text": "{{cust_crmemo.data.value[0].billToName}} ({{cust_crmemo.data.value[0].billToCustomerNumber}})",
+  "text": "{{helper.getCrMemoHeader().billToName}} ({{helper.getCrMemoHeader().billToCustomerNo}})",
   "textAlign": "LEFT",
   "textColor": "#231F20",
   "topRow": 13,

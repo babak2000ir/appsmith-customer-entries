@@ -1,0 +1,6 @@
+{
+	"subject": "{{appsmith.store.userId}}",
+	"token":"{{appsmith.store.token}}",
+	"command": "GetSalesCreditMemo",
+	"parameters": "{{JSON.stringify({documentNo: appsmith.store.creditmemoNo})}}"
+}

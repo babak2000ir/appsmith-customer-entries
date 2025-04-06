@@ -12,8 +12,13 @@ export default {
 		SEK: 'kr', // Swedish Krona
 		NZD: 'NZ$', // New Zealand Dollar
 	},
-	getCurrencySymbol (currencyCode) {
-
+	getCurrencySymbol(currencyCode) {
 		return this.currencySymbols[currencyCode] || currencyCode;
+	},
+	getInvoiceHeader() {
+		return JSON.parse(cust_invoice.data.value);
+	},
+	getInvoiceLines() {
+		return JSON.parse(cust_invoice.data.value).lines;
 	}
 }
