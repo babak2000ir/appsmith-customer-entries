@@ -1,18 +1,18 @@
 export default {
 	openDocumentCard () {
-		switch(Table1.selectedRow.documentType) {
-			case 'Invoice':
-				storeValue('invoiceNo', Table1.selectedRow.documentNo);
+		switch(TabControl.selectedTab) {
+			case 'Invoices':
+				storeValue('invoiceNo', InvTbl.selectedRow.documentNo);
 				navigateTo('Invoice');
 				break;
-			case 'Credit Memo':
-				storeValue('creditmemoNo', Table1.selectedRow.documentNo);
+			case 'Credit Memos':
+				storeValue('creditmemoNo', CrmTbl.selectedRow.documentNo);
 				navigateTo('Credit Memo')
 				break;
-			case 'Payment':
+			case 'Payments':
 				showAlert('Payment');
 				break;
-			case 'Refund':
+			case 'Refunds':
 				showAlert('Refund');
 				break;
 		}
