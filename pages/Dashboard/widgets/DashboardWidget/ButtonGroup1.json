@@ -1,0 +1,79 @@
+{
+  "animateLoading": true,
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "bottomRow": 18,
+  "boxShadow": "none",
+  "buttonVariant": "SECONDARY",
+  "childStylesheet": {
+    "button": {
+      "buttonColor": "{{appsmith.theme.colors.primaryColor}}"
+    }
+  },
+  "dynamicBindingPathList": [
+    {
+      "key": "borderRadius"
+    },
+    {
+      "key": "groupButtons.groupButton1.buttonColor"
+    },
+    {
+      "key": "groupButtons.groupButton2.buttonColor"
+    }
+  ],
+  "dynamicTriggerPathList": [],
+  "groupButtons": {
+    "groupButton1": {
+      "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
+      "buttonType": "SIMPLE",
+      "disabledWhenInvalid": false,
+      "iconName": "projects",
+      "id": "groupButton1",
+      "index": 0,
+      "isDisabled": false,
+      "isVisible": true,
+      "label": "Entries",
+      "menuItems": {},
+      "placement": "CENTER",
+      "widgetId": ""
+    },
+    "groupButton2": {
+      "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
+      "buttonType": "SIMPLE",
+      "disabledWhenInvalid": false,
+      "iconName": "shopping-cart",
+      "id": "groupButton2",
+      "index": 1,
+      "isDisabled": true,
+      "isVisible": true,
+      "label": "Orders",
+      "menuItems": {},
+      "placement": "CENTER",
+      "widgetId": ""
+    }
+  },
+  "isCanvas": false,
+  "isLoading": false,
+  "isVisible": true,
+  "key": "lfsp18y2ii",
+  "leftColumn": 0,
+  "minWidth": 450,
+  "mobileBottomRow": 13,
+  "mobileLeftColumn": 12,
+  "mobileRightColumn": 36,
+  "mobileTopRow": 9,
+  "needsErrorInfo": false,
+  "orientation": "horizontal",
+  "originalBottomRow": 32,
+  "originalTopRow": 19,
+  "parentColumnSpace": 6.53125,
+  "parentId": "kw56vlfjy5",
+  "parentRowSpace": 10,
+  "renderMode": "CANVAS",
+  "responsiveBehavior": "fill",
+  "rightColumn": 64,
+  "topRow": 5,
+  "type": "BUTTON_GROUP_WIDGET",
+  "version": 1,
+  "widgetId": "jff1kgdwqb",
+  "widgetName": "ButtonGroup1"
+}

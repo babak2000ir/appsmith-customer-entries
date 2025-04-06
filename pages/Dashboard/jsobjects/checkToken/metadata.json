@@ -1,0 +1,11 @@
+{
+  "gitSyncId": "67d2e714ec16006858a14115_969c6f88-d499-4e14-b883-5508c0351f9a",
+  "id": "Dashboard_checkToken",
+  "unpublishedCollection": {
+    "name": "checkToken",
+    "pageId": "Dashboard",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "variables": []
+  }
+}

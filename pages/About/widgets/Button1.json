@@ -31,7 +31,7 @@
   "mobileRightColumn": 34,
   "mobileTopRow": 69,
   "needsErrorInfo": false,
-  "onClick": "{{navigateTo('Entries', {}, 'SAME_WINDOW');}}",
+  "onClick": "{{navigateTo('Dashboard', {}, 'SAME_WINDOW');}}",
   "originalBottomRow": 82,
   "originalTopRow": 78,
   "parentColumnSpace": 6.84375,

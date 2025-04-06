@@ -43,9 +43,9 @@
     "Document_No": 71,
     "Document_Type": 112,
     "Posting_Date": 95,
-    "documentDate": 99,
+    "documentDate": 95,
     "documentNo": 81,
-    "documentType": 101
+    "documentType": 124
   },
   "compactMode": "DEFAULT",
   "customIsLoading": false,
@@ -248,7 +248,7 @@
       "isEditable": false,
       "isSaveVisible": true,
       "isVisible": true,
-      "label": "Type",
+      "label": "Document",
       "notation": "standard",
       "originalId": "documentType",
       "sticky": "",

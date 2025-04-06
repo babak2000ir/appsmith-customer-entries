@@ -22,7 +22,7 @@
   "pages": [
     {
       "id": "Login",
-      "isDefault": true
+      "isDefault": false
     },
     {
       "id": "Entries",
@@ -39,6 +39,10 @@
     {
       "id": "Creditmemo",
       "isDefault": false
+    },
+    {
+      "id": "Dashboard",
+      "isDefault": true
     }
   ],
   "unpublishedAppLayout": {
