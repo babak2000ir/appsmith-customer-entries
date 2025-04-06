@@ -10,5 +10,12 @@ export default {
 	},
 	paymentExists () {
 		return this.entries().some(e=>e.documentType==='Payment')
+	},
+	invoiceTableData () {
+		return this.entries().filter(e=>e.documentType==='Invoice').map(
+			e=>{
+				return {...e, documentNo:(e.remainingAmount?'⏳':'')+e.documentNo }
+			}
+		)
 	}
 }
