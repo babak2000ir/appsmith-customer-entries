@@ -1,0 +1,11 @@
+{
+  "gitSyncId": "67d2e714ec16006858a14115_38e15d4a-3338-402a-a824-615e49ba22c1",
+  "id": "Dashboard_logOff",
+  "unpublishedCollection": {
+    "name": "logOff",
+    "pageId": "Dashboard",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "variables": []
+  }
+}

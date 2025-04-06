@@ -23,6 +23,9 @@
   "dynamicTriggerPathList": [
     {
       "key": "groupButtons.groupButton3.onClick"
+    },
+    {
+      "key": "groupButtons.groupButton2.onClick"
     }
   ],
   "groupButtons": {
@@ -30,13 +33,14 @@
       "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
       "buttonType": "SIMPLE",
       "disabledWhenInvalid": false,
-      "iconName": "document-open",
+      "iconName": "log-out",
       "id": "groupButton2",
-      "index": 0,
-      "isDisabled": true,
+      "index": 1,
+      "isDisabled": false,
       "isVisible": true,
-      "label": "Cases",
+      "label": "Log out",
       "menuItems": {},
+      "onClick": "{{logOff.logOff();}}",
       "placement": "CENTER",
       "widgetId": ""
     },
@@ -47,7 +51,7 @@
       "iconAlign": "left",
       "iconName": "info-sign",
       "id": "groupButton3",
-      "index": 1,
+      "index": 0,
       "isDisabled": false,
       "isVisible": true,
       "label": "About",
