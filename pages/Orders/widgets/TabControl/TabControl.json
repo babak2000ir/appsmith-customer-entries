@@ -47,7 +47,7 @@
       "rightColumn": 164.25,
       "shouldScrollContents": false,
       "tabId": "tab1",
-      "tabName": "Invoices",
+      "tabName": "Orders",
       "topRow": 0,
       "type": "CANVAS_WIDGET",
       "version": 1,
@@ -93,7 +93,7 @@
       "rightColumn": 164.25,
       "shouldScrollContents": false,
       "tabId": "tab2",
-      "tabName": "Payments",
+      "tabName": "Returns",
       "topRow": 0,
       "type": "CANVAS_WIDGET",
       "version": 1,
@@ -138,60 +138,15 @@
       "responsiveBehavior": "fill",
       "rightColumn": 438,
       "tabId": "tab92hexzd9qk",
-      "tabName": "Credit Memos",
+      "tabName": "Shipments",
       "topRow": 1,
       "type": "CANVAS_WIDGET",
       "version": 1,
       "widgetId": "97toyg43p1",
       "widgetName": "Canvas3"
-    },
-    {
-      "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-      "bottomRow": 620,
-      "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
-      "canExtend": false,
-      "containerStyle": "none",
-      "detachFromLayout": true,
-      "dynamicBindingPathList": [
-        {
-          "key": "borderRadius"
-        },
-        {
-          "key": "boxShadow"
-        }
-      ],
-      "dynamicHeight": "AUTO_HEIGHT",
-      "dynamicTriggerPathList": [],
-      "flexLayers": [],
-      "isLoading": false,
-      "isVisible": true,
-      "key": "m8xg9za9yg",
-      "leftColumn": 0,
-      "maxDynamicHeight": 9000,
-      "minDynamicHeight": 4,
-      "minHeight": 190,
-      "minWidth": 450,
-      "mobileBottomRow": 191,
-      "mobileLeftColumn": 0,
-      "mobileRightColumn": 438,
-      "mobileTopRow": 1,
-      "needsErrorInfo": false,
-      "parentColumnSpace": 1,
-      "parentId": "5nfzf4p6cd",
-      "parentRowSpace": 1,
-      "renderMode": "CANVAS",
-      "responsiveBehavior": "fill",
-      "rightColumn": 438,
-      "tabId": "tabq78vtufs5q",
-      "tabName": "Refunds",
-      "topRow": 1,
-      "type": "CANVAS_WIDGET",
-      "version": 1,
-      "widgetId": "sb0e6kjzmd",
-      "widgetName": "Canvas4"
     }
   ],
-  "defaultTab": "Invoices",
+  "defaultTab": "Orders",
   "dynamicBindingPathList": [
     {
       "key": "accentColor"
@@ -203,20 +158,11 @@
       "key": "boxShadow"
     },
     {
-      "key": "tabsObj.tab92hexzd9qk.isVisible"
-    },
-    {
-      "key": "tabsObj.tabq78vtufs5q.isVisible"
-    },
-    {
       "key": "tabsObj.tab2.isVisible"
     }
   ],
   "dynamicHeight": "AUTO_HEIGHT",
   "dynamicPropertyPathList": [
-    {
-      "key": "tabsObj.tab92hexzd9qk.isVisible"
-    },
     {
       "key": "tabsObj.tabq78vtufs5q.isVisible"
     },
@@ -253,32 +199,28 @@
     "tab1": {
       "id": "tab1",
       "index": 0,
+      "isDuplicateLabel": false,
       "isVisible": true,
-      "label": "Invoices",
+      "label": "Orders",
       "positioning": "vertical",
       "widgetId": "xbbs534etm"
     },
     "tab2": {
       "id": "tab2",
-      "index": 1,
-      "isVisible": "{{helper.paymentExists()}}",
-      "label": "Payments",
+      "index": 2,
+      "isDuplicateLabel": false,
+      "isVisible": "{{helper.returnExists()}}",
+      "label": "Returns",
       "positioning": "vertical",
       "widgetId": "era7pm7fet"
     },
     "tab92hexzd9qk": {
       "id": "tab92hexzd9qk",
-      "index": 2,
-      "isVisible": "{{helper.crmemoExists()}}",
-      "label": "Credit Memos",
+      "index": 1,
+      "isDuplicateLabel": false,
+      "isVisible": true,
+      "label": "Shipments",
       "widgetId": "97toyg43p1"
-    },
-    "tabq78vtufs5q": {
-      "id": "tabq78vtufs5q",
-      "index": 3,
-      "isVisible": "{{helper.refundExists()}}",
-      "label": "Refunds",
-      "widgetId": "sb0e6kjzmd"
     }
   },
   "topRow": 4,

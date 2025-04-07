@@ -47,15 +47,19 @@
       "isDefault": false
     },
     {
-      "id": "About",
-      "isDefault": false
-    },
-    {
       "id": "Invoice",
       "isDefault": false
     },
     {
       "id": "Credit Memo",
+      "isDefault": false
+    },
+    {
+      "id": "Orders",
+      "isDefault": false
+    },
+    {
+      "id": "About",
       "isDefault": false
     }
   ],

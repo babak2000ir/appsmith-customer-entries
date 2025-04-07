@@ -1,0 +1,11 @@
+{
+  "gitSyncId": "67d2e714ec16006858a14115_bcb279ce-94dd-4f33-a052-5a039ab27957",
+  "id": "Orders_openDocCard",
+  "unpublishedCollection": {
+    "name": "openDocCard",
+    "pageId": "Orders",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "variables": []
+  }
+}

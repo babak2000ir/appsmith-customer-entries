@@ -33,7 +33,7 @@
   "mobileRightColumn": 16,
   "mobileTopRow": 32,
   "needsErrorInfo": false,
-  "onClick": "",
+  "onClick": "{{navigateTo('Orders', {}, 'SAME_WINDOW');}}",
   "originalBottomRow": 46,
   "originalTopRow": 31,
   "parentColumnSpace": 6.53125,

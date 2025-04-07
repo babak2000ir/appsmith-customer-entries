@@ -1,0 +1,11 @@
+{
+  "gitSyncId": "67d2e714ec16006858a14115_bb6d6ba0-790a-48ec-96ab-ff6a8f32f10c",
+  "id": "Orders_logOff",
+  "unpublishedCollection": {
+    "name": "logOff",
+    "pageId": "Orders",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "variables": []
+  }
+}

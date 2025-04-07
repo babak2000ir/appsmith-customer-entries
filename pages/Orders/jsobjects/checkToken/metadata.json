@@ -1,0 +1,11 @@
+{
+  "gitSyncId": "67d2e714ec16006858a14115_92a69d3b-5186-4dac-a5a3-22c695988f61",
+  "id": "Orders_checkToken",
+  "unpublishedCollection": {
+    "name": "checkToken",
+    "pageId": "Orders",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "variables": []
+  }
+}
