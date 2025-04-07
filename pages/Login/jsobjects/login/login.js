@@ -7,6 +7,7 @@ export default {
 			storeValue("userId", valueJson.userId);
 			storeValue("userName", valueJson.userName);
 			storeValue("customerNo", valueJson.sourceNo)
+			storeValue("image", valueJson.image)
 		})
 			.then(() => checkToken.checkToken())
 			.catch(() => showAlert("Invalid username or password. Please try again."))
