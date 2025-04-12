@@ -39,9 +39,11 @@
     "entryNo",
     "remainingAmount",
     "currencyCode",
-    "currencySymbol"
+    "currencySymbol",
+    "dueDate",
+    "open"
   ],
-  "columnUpdatedAt": 1743963659652,
+  "columnUpdatedAt": 1744485156088,
   "columnWidthMap": {
     "Document_No": 71,
     "Document_Type": 112,
@@ -96,6 +98,12 @@
     },
     {
       "key": "primaryColumns.documentNo.computedValue"
+    },
+    {
+      "key": "primaryColumns.dueDate.computedValue"
+    },
+    {
+      "key": "primaryColumns.open.computedValue"
     }
   ],
   "dynamicPropertyPathList": [
@@ -339,6 +347,40 @@
       "verticalAlignment": "CENTER",
       "width": 150
     },
+    "dueDate": {
+      "alias": "dueDate",
+      "allowCellWrapping": false,
+      "allowSameOptionsInNewRow": true,
+      "cellBackground": "",
+      "columnType": "date",
+      "computedValue": "{{InvTbl.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"dueDate\"]))}}",
+      "currencyCode": "USD",
+      "decimals": 0,
+      "enableFilter": true,
+      "enableSort": true,
+      "fontStyle": "",
+      "horizontalAlignment": "CENTER",
+      "id": "dueDate",
+      "index": 5,
+      "isCellEditable": false,
+      "isCellVisible": true,
+      "isDerived": false,
+      "isDisabled": false,
+      "isDiscardVisible": true,
+      "isEditable": false,
+      "isSaveVisible": true,
+      "isVisible": false,
+      "label": "dueDate",
+      "notation": "standard",
+      "originalId": "dueDate",
+      "sticky": "",
+      "textColor": "",
+      "textSize": "0.875rem",
+      "thousandSeparator": true,
+      "validation": {},
+      "verticalAlignment": "CENTER",
+      "width": 150
+    },
     "entryNo": {
       "alias": "entryNo",
       "allowCellWrapping": false,
@@ -365,6 +407,40 @@
       "label": "entryNo",
       "notation": "standard",
       "originalId": "entryNo",
+      "sticky": "",
+      "textColor": "",
+      "textSize": "0.875rem",
+      "thousandSeparator": true,
+      "validation": {},
+      "verticalAlignment": "CENTER",
+      "width": 150
+    },
+    "open": {
+      "alias": "open",
+      "allowCellWrapping": false,
+      "allowSameOptionsInNewRow": true,
+      "cellBackground": "",
+      "columnType": "checkbox",
+      "computedValue": "{{InvTbl.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"open\"]))}}",
+      "currencyCode": "USD",
+      "decimals": 0,
+      "enableFilter": true,
+      "enableSort": true,
+      "fontStyle": "",
+      "horizontalAlignment": "CENTER",
+      "id": "open",
+      "index": 6,
+      "isCellEditable": false,
+      "isCellVisible": true,
+      "isDerived": false,
+      "isDisabled": false,
+      "isDiscardVisible": true,
+      "isEditable": false,
+      "isSaveVisible": true,
+      "isVisible": false,
+      "label": "open",
+      "notation": "standard",
+      "originalId": "open",
       "sticky": "",
       "textColor": "",
       "textSize": "0.875rem",
