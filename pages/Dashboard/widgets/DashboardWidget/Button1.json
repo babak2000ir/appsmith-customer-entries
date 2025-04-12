@@ -1,7 +1,7 @@
 {
   "animateLoading": true,
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-  "bottomRow": 25,
+  "bottomRow": 27,
   "boxShadow": "none",
   "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
   "buttonVariant": "SECONDARY",
@@ -46,7 +46,7 @@
   "responsiveBehavior": "hug",
   "rightColumn": 64,
   "text": "Finance",
-  "topRow": 16,
+  "topRow": 18,
   "type": "BUTTON_WIDGET",
   "version": 1,
   "widgetId": "2vy3dzbdri",

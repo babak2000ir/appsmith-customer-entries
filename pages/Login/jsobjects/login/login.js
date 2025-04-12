@@ -5,9 +5,9 @@ export default {
 			const valueJson = JSON.parse(data.value);
 			storeValue("token", valueJson.token);
 			storeValue("userId", valueJson.userId);
-			storeValue("userName", valueJson.userName);
-			storeValue("customerNo", valueJson.sourceNo)
-			storeValue("image", valueJson.image)
+			storeValue("customerNo", valueJson.sourceNo);
+			storeValue("userInfo", valueJson.userInfo)
+			storeValue("globalInfo", valueJson.globalInfo)
 		})
 			.then(() => checkToken.checkToken())
 			.catch(() => showAlert("Invalid username or password. Please try again."))
