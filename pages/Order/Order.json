@@ -1,12 +1,12 @@
 {
-  "gitSyncId": "67d2e714ec16006858a14115_f048edbe-ffb9-4aa9-91f5-6027a9962191",
+  "gitSyncId": "67d2e714ec16006858a14115_d7fda9d9-2f86-40b5-b474-9ca875d6c3a7",
   "unpublishedPage": {
     "isHidden": false,
     "layouts": [
       {
         "dsl": {
           "backgroundColor": "none",
-          "bottomRow": 670,
+          "bottomRow": 660,
           "canExtend": true,
           "containerStyle": "none",
           "detachFromLayout": true,
@@ -26,7 +26,7 @@
         }
       }
     ],
-    "name": "Credit Memo",
-    "slug": "credit-memo"
+    "name": "Order",
+    "slug": "order"
   }
 }

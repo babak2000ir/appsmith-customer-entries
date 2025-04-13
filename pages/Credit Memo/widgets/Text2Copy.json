@@ -43,7 +43,7 @@
   "responsiveBehavior": "fill",
   "rightColumn": 43,
   "shouldTruncate": false,
-  "text": "{{helper.formatDate(helper.getCrMemoHeader().documentDate)}}",
+  "text": "{{helper.getDocumentDate()}}",
   "textAlign": "LEFT",
   "textColor": "#231F20",
   "topRow": 4,

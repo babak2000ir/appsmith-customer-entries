@@ -6,11 +6,6 @@
     "pageId": "Credit Memo",
     "pluginId": "js-plugin",
     "pluginType": "JS",
-    "variables": [
-      {
-        "name": "currencySymbols",
-        "value": "{\n  USD: '$',\n  EUR: '€',\n  GBP: '£',\n  JPY: '¥',\n  INR: '₹',\n  AUD: 'A$',\n  CAD: 'C$',\n  CHF: 'CHF',\n  CNY: '¥',\n  SEK: 'kr',\n  NZD: 'NZ$'\n}"
-      }
-    ]
+    "variables": []
   }
 }

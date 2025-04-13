@@ -43,7 +43,7 @@
   "responsiveBehavior": "fill",
   "rightColumn": 63,
   "shouldTruncate": false,
-  "text": "{{helper.getCrMemoHeader().billToAddress}}<br>{{helper.getCrMemoHeader().billToCity}} - {{helper.getCrMemoHeader().billToPostCode}}",
+  "text": "{{helper.getAddress()}}",
   "textAlign": "LEFT",
   "textColor": "#231F20",
   "topRow": 12,

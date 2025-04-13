@@ -1,0 +1,6 @@
+{
+	"subject": "{{appsmith.store.userId}}",
+	"token":"{{appsmith.store.token}}",
+	"command": "GetSalesDocument",
+	"parameters": "{{JSON.stringify({documentType: 'Order', documentNo: appsmith.store.OrderNo})}}"
+}
